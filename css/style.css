@@ -1,0 +1,35 @@
+.navbar{
+    background-color: #243238;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.container1{
+   background-image: url("../images/hotelroom.jpg");
+   height: 600px;
+   background-size: cover;
+   background-position: 0 50%;
+   background-repeat: no-repeat;
+}
+.nav-link{
+    color: #fff; 
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.navbar-brand img{
+    height: 80px;
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: transparent;
+}
+
+.collapse{
+    margin-left: 50%;
+}
+
+
