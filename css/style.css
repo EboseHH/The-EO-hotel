@@ -1,16 +1,33 @@
-.navbar{
-    background-color: #243238;
-    font-family: 'Lora', serif;
-    font-size: 14px;
-    color: #fff;
+body{
+    font-family: "Ubuntu", serif;
 }
 
-.container1{
-   background-image: url("../images/hotelroom.jpg");
-   height: 600px;
-   background-size: cover;
-   background-position: 0 50%;
-   background-repeat: no-repeat;
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+    color: #171818;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+a {
+    color: #171818;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.navbar{
+    background-color: transparent;
+    font-family: 'Ubuntu', serif;
+    font-size: 14px;
+    color: #fff;
 }
 .nav-link{
     color: #fff; 
@@ -32,4 +49,61 @@
     margin-left: 50%;
 }
 
+/* Hero section */
+#hero{
+   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/resort.jpg");
+   height: 600px;
+   background-size: cover;
+   background-position: 0 50%;
+   background-repeat: no-repeat;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+h2 {
+    font-family: "Nothing you could do", cursive;
+    
+}
+
+#hero h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#hero p{
+    line-height: 1.5rem;
+    padding-top: 20px;
+    color: #fff;
+}
+
+#hero .btn {
+   opacity: 0.75;
+   padding: 20px 30px;
+   font-weight: 700;
+
+}
+#hero .container{
+max-width: 700px;
+}
+   
+/* Welcome Section  */
+#welcome{
+    padding-top: 80px;
+}
+
+#welcome .row {
+    align-items: center;
+}
+
+#welcome img {
+margin-bottom: 50px;
+}
+
+#welcome h1 {
+    margin-bottom: 20px;
+}
 
