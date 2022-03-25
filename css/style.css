@@ -1,9 +1,13 @@
-body{
+body {
     font-family: "Ubuntu", serif;
 }
 
 h1 {
     font-weight: 700;
+}
+
+h2 {
+    font-family: "Nothing you could do", cursive;
 }
 
 p {
@@ -19,38 +23,38 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: black;
 }
 
-.navbar{
+.navbar {
     background-color: transparent;
     font-family: 'Ubuntu', serif;
     font-size: 14px;
     color: #fff;
 }
-.nav-link{
+.nav-link {
     color: #fff; 
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #fff;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     height: 80px;
 }
 
-.navbar-dark .navbar-toggler{
+.navbar-dark .navbar-toggler {
     border-color: transparent;
 }
 
-.collapse{
+.collapse {
     margin-left: 50%;
 }
 
 /* Hero section */
-#hero{
+#hero {
    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/resort.jpg");
    height: 600px;
    background-size: cover;
@@ -63,18 +67,13 @@ a:hover{
    text-align: center;
 }
 
-h2 {
-    font-family: "Nothing you could do", cursive;
-    
-}
-
 #hero h1 {
     font-size: 72px;
     font-weight: 700;
     margin-top: 20px;
 }
 
-#hero p{
+#hero p {
     line-height: 1.5rem;
     padding-top: 20px;
     color: #fff;
@@ -86,12 +85,12 @@ h2 {
    font-weight: 700;
 
 }
-#hero .container{
+#hero .container {
 max-width: 700px;
 }
    
 /* Welcome Section  */
-#welcome{
+#welcome {
     padding-top: 80px;
 }
 
@@ -107,3 +106,12 @@ margin-bottom: 50px;
     margin-bottom: 20px;
 }
 
+#amenities .row {
+    align-items: center;
+    padding: 80px;
+}
+
+#amenities img {
+    padding-left: 50px;
+    max-width: 700px
+}
